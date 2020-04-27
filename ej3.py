@@ -19,3 +19,8 @@ if taburete in('s','S','si','Si'):
 elif taburete in('n','N','no','No'):
     boomer='\nBueno, al menos es un comienzo. Veremos qué se puede hacer contigo.'
 print (boomer)
+
+for num in range(1,edad):
+    print('Que no cumple',int(num))
+num=num+1
+print('¡Qué sí cumple',int(num),'!')
