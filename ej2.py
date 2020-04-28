@@ -25,6 +25,6 @@ while (num<edad):
     num=num+1
 print('¡Qué sí cumple',int(num),'!')
 
-lista=[nombre,edad,año]
+lista=(nombre,edad,año)
 for año in lista:
-    print (nombre)
+    print (año)
