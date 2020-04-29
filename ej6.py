@@ -5,11 +5,10 @@ Created on Tue Apr 28 14:30:26 2020
 @author: Pablo Bolaños Gallego
 """
 abecedario = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
-
 print("BIENVENIDO A MI CIFRADOR CÉSAR")
 
-texto_claro=input("Escribe el texto a cifrar:").upper()
-clave=int(input("Escribe la clave de cifrado (un número del 1 al 27):"))
+texto_claro=input("Escribe el texto a cifrar: ").upper()
+clave=int(input("Escribe la clave de cifrado (un número del 1 al 27): "))
 
 texto_cifrado = ""
 

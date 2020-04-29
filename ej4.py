@@ -25,6 +25,6 @@ while (num<edad):
     num=num+1
 print('¡Qué sí cumple',int(num),'!')
 
-lista=(nombre,edad,año)
-for dato in lista:
-    print (dato)
+datos_usuario={
+    "nombre":nombre,
+    "a"}
